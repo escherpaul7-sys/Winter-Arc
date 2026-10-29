@@ -1,0 +1,6 @@
+{
+  "name": "Winter Arc AI",
+  "description": "Build your habits. Train smart. Become your best self. Personalized fitness, nutrition, habit tracking, and AI coaching for your Winter Arc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1932 @@
+WINTER ARC AI – FULL APP DEVELOPMENT PROMPT
+
+1. DEINE ROLLE
+
+Du bist ein professionelles AI-App-Development-System, ein erfahrener Full-Stack-Entwickler, UI/UX-Designer, Fitness-App-Designer und KI-Produktentwickler.
+
+Deine Aufgabe ist es, eine vollständig funktionierende, moderne, hochwertige und responsive Web-App namens Winter Arc AI zu entwickeln.
+
+Die App soll Nutzern helfen, während der Wintermonate ihre Fitness, ihre gesunden Gewohnheiten, ihre Organisation, ihre mentale Stärke und ihre persönliche Entwicklung zu verbessern.
+
+Die App soll wie eine Mischung aus folgenden Produkten wirken:
+
+* Ein moderner Fitness-Tracker
+* Ein persönlicher Workout-Generator
+* Ein intelligenter Ernährungsplaner
+* Ein Habit-Tracker
+* Ein Tagesplaner
+* Ein persönlicher KI-Coach
+* Ein Winter-Arc-Challenge-System
+
+Die App soll nicht nur ein schönes Design besitzen, sondern tatsächlich funktionieren.
+
+Alle wichtigen Buttons, Formulare, Navigationselemente, Tracker, Einstellungen und KI-Funktionen müssen sinnvoll implementiert werden.
+
+Erstelle keine reine Präsentationsseite.
+
+Erstelle eine echte interaktive Anwendung.
+
+⸻
+
+2. APP-KONZEPT
+
+Name
+
+Winter Arc AI
+
+Slogan
+
+“Build your habits. Train smart. Become your best self.”
+
+Alternativer deutscher Slogan:
+
+“Dein Winter. Deine Entwicklung. Dein Fortschritt.”
+
+Ziel
+
+Die App soll Nutzern dabei helfen, ihren persönlichen Winter Arc strukturiert, gesund und motivierend zu gestalten.
+
+Der Nutzer soll seine persönlichen Ziele definieren können und anschließend einen individuell angepassten Plan erhalten.
+
+Dieser Plan soll sich aus mehreren Bereichen zusammensetzen:
+
+1. Fitness
+2. Ernährung
+3. Schlaf
+4. Gewohnheiten
+5. Tagesplanung
+6. Persönliche Entwicklung
+7. Motivation
+8. Fortschrittsanalyse
+
+Die KI soll die einzelnen Bereiche miteinander verbinden.
+
+Wenn ein Nutzer beispielsweise mehr Sport machen möchte, soll die App nicht einfach einen Trainingsplan erstellen.
+
+Sie soll auch berücksichtigen:
+
+* Wie viel Zeit der Nutzer hat
+* Welche Sportarten er ausübt
+* Welche Ausrüstung vorhanden ist
+* Wie viel Erfahrung er besitzt
+* Welche anderen Aktivitäten seinen Alltag bestimmen
+* Wie viel Erholung er benötigt
+
+Die App soll einen realistischen und nachhaltigen Plan erstellen.
+
+Wichtig:
+
+Die App darf keine extreme Selbstoptimierung fördern.
+
+Sie soll gesunde Gewohnheiten, ausreichende Erholung, ausgewogene Ernährung und langfristige Entwicklung priorisieren.
+
+⸻
+
+3. DESIGN UND VISUELLE IDENTITÄT
+
+Entwickle ein außergewöhnlich hochwertiges Design.
+
+Die App soll modern, minimalistisch, sportlich, elegant und motivierend aussehen.
+
+Orientiere dich an hochwertigen Fitness- und Produktivitäts-Apps.
+
+Das Design soll nicht wie eine gewöhnliche Website oder ein einfaches Dashboard aussehen.
+
+Farbpalette
+
+Verwende ein dunkles Design als Standard.
+
+Hintergrund:
+
+Sehr dunkles Navy oder Schwarz.
+
+Beispiel:
+
+#0B0F19
+
+Sekundärer Hintergrund:
+
+#141B2A
+
+Cards:
+
+#182131
+
+Akzentfarbe:
+
+Leuchtendes Eisblau.
+
+#66D9FF
+
+Zusätzliche Akzentfarbe:
+
+Violett.
+
+#8B7CFF
+
+Text:
+
+Weiß und helles Grau.
+
+Verwende dezente Farbverläufe.
+
+Vermeide übertriebene Neonfarben.
+
+Die App soll hochwertig und ruhig wirken.
+
+Design-Stil
+
+Implementiere:
+
+* Modernes Dark UI
+* Abgerundete Cards
+* Dezente Schatten
+* Subtile Glow-Effekte
+* Hochwertige Icons
+* Klare Typografie
+* Sanfte Animationen
+* Responsive Layout
+* Übersichtliche Diagramme
+* Fortschrittsbalken
+* Interaktive Buttons
+* Moderne Navigation
+
+Verwende Lucide Icons oder eine vergleichbare professionelle Icon-Bibliothek.
+
+Keine Emojis als Ersatz für sämtliche Icons.
+
+Hintergrund
+
+Verwende einen dunklen Hintergrund mit subtilen winterlichen Details.
+
+Optional:
+
+* Dezente Schneeflocken
+* Leichte Frost-Texturen
+* Sanfte blaue Lichtakzente
+* Minimalistische winterliche Animationen
+
+Die winterlichen Effekte dürfen die Bedienbarkeit nicht beeinträchtigen.
+
+Es dürfen keine überladenen Animationen entstehen.
+
+Typografie
+
+Verwende eine moderne Sans-Serif-Schrift.
+
+Bevorzuge:
+
+* Inter
+* Geist
+* Manrope
+
+Große Überschriften sollen klar und hochwertig wirken.
+
+Kleine Texte müssen gut lesbar bleiben.
+
+⸻
+
+4. TECHNISCHE ANFORDERUNGEN
+
+Entwickle die Anwendung mit einem modernen Web-Technologie-Stack.
+
+Bevorzugt:
+
+* React
+* TypeScript
+* Tailwind CSS
+* Lucide Icons
+* Recharts für Diagramme
+
+Wenn Google AI Studio einen anderen geeigneten Stack vorgibt, verwende diesen.
+
+Architektur
+
+Strukturiere die App in wiederverwendbare Komponenten.
+
+Beispielsweise:
+
+* AppLayout
+* Sidebar
+* Header
+* Dashboard
+* WorkoutGenerator
+* WorkoutDetail
+* NutritionPlanner
+* HabitTracker
+* SchedulePlanner
+* AIChat
+* ProgressDashboard
+* Settings
+* Onboarding
+
+Vermeide eine riesige einzelne Komponente.
+
+Verwende saubere, nachvollziehbare und wartbare Strukturen.
+
+Funktionalität
+
+Implementiere:
+
+* Navigation zwischen Seiten
+* Zustandsverwaltung
+* Formulare
+* Datenvalidierung
+* Speicherung von Nutzerdaten
+* Fortschrittsberechnung
+* Workout-Erstellung
+* Ernährungsplan-Erstellung
+* Gewohnheitstracking
+* Tagesplanung
+* KI-Interaktionen
+
+Verwende lokale Speicherung für einen funktionierenden Demo-Modus.
+
+Wenn Firebase oder eine andere Backend-Lösung verfügbar und konfiguriert ist, kannst du diese für Accounts und Cloud-Synchronisierung verwenden.
+
+Erfinde keine funktionierenden API-Verbindungen.
+
+Wenn eine externe API einen API-Key benötigt, implementiere eine sichere Integrationsstruktur und zeige verständlich, was noch eingerichtet werden muss.
+
+API-Schlüssel dürfen niemals im Frontend öffentlich hinterlegt werden.
+
+⸻
+
+5. ONBOARDING – PERSÖNLICHER WINTER ARC
+
+Beim ersten Öffnen der App soll der Nutzer durch ein modernes Onboarding geführt werden.
+
+Das Onboarding soll aus mehreren übersichtlichen Schritten bestehen.
+
+Der Nutzer darf zwischen den Schritten zurückgehen.
+
+Zeige einen Fortschrittsindikator.
+
+Schritt 1: Begrüßung
+
+Titel:
+
+“Start your Winter Arc.”
+
+Untertitel:
+
+“Baue gesunde Gewohnheiten auf und gestalte deinen persönlichen Winter.”
+
+Button:
+
+“Jetzt starten”
+
+Schritt 2: Persönliche Ziele
+
+Der Nutzer kann mehrere Ziele auswählen.
+
+Beispiele:
+
+* Fitness verbessern
+* Kraft aufbauen
+* Ausdauer verbessern
+* Eine Sportart verbessern
+* Regelmäßiger trainieren
+* Besser schlafen
+* Gesünder essen
+* Mehr lernen
+* Tagesroutine verbessern
+* Mehr Zeit für persönliche Projekte
+* Mehr Bewegung im Alltag
+* Allgemeine persönliche Entwicklung
+
+Die Ziele sollen frei kombinierbar sein.
+
+Schritt 3: Sportarten
+
+Frage:
+
+“Welche Sportarten machst du?”
+
+Mögliche Optionen:
+
+* Fitnessstudio
+* Krafttraining zu Hause
+* Handball
+* Fußball
+* Basketball
+* Laufen
+* Radfahren
+* Mountainbike
+* Schwimmen
+* Calisthenics
+* Volleyball
+* Tennis
+* Kampfsport
+* Andere Sportarten
+
+Der Nutzer kann mehrere Sportarten auswählen.
+
+Zusätzlich gibt es ein Eingabefeld für eigene Sportarten.
+
+Schritt 4: Trainingserfahrung
+
+Frage:
+
+“Wie viel Trainingserfahrung hast du?”
+
+Optionen:
+
+* Anfänger
+* Fortgeschritten
+* Erfahren
+
+Die Trainingspläne müssen entsprechend angepasst werden.
+
+Schritt 5: Trainingsausrüstung
+
+Der Nutzer kann auswählen:
+
+* Keine zusätzliche Ausrüstung
+* Kurzhanteln
+* Langhantel
+* Widerstandsbänder
+* Klimmzugstange
+* Trainingsbank
+* Fitnessstudio
+* Calisthenics-Park
+* Laufband
+* Ergometer
+* Andere Ausrüstung
+
+Mehrfachauswahl erlauben.
+
+Schritt 6: Zeitplanung
+
+Frage:
+
+“Wie viel Zeit hast du normalerweise für dein Training?”
+
+Optionen:
+
+* 15 Minuten
+* 20 Minuten
+* 30 Minuten
+* 45 Minuten
+* 60 Minuten
+* Individuelle Zeit
+
+Zusätzlich soll der Nutzer angeben können, an welchen Tagen er trainieren möchte.
+
+Schritt 7: Alltag
+
+Der Nutzer kann seine festen Verpflichtungen hinzufügen.
+
+Beispiele:
+
+* Schule
+* Arbeit
+* Vereinssport
+* Freizeit
+* Lernen
+* Andere Aktivitäten
+
+Er soll Startzeiten und Endzeiten festlegen können.
+
+Die App darf keine unrealistischen Trainingszeiten einplanen.
+
+Schritt 8: Ernährung
+
+Frage:
+
+“Was möchtest du bei deiner Ernährung verbessern?”
+
+Optionen:
+
+* Regelmäßiger essen
+* Ausgewogene Mahlzeiten
+* Mehr Obst und Gemüse
+* Mehr Abwechslung
+* Ausreichend trinken
+* Mahlzeiten besser planen
+* Sportgerechte Ernährung
+
+Erfrage außerdem:
+
+* Allergien
+* Unverträglichkeiten
+* Ernährungsweise
+* Lebensmittel, die der Nutzer nicht mag
+* Bevorzugte Mahlzeiten
+
+Die App darf keine extremen Diäten oder restriktiven Ernährungsziele erstellen.
+
+Bei Minderjährigen müssen Ernährungsempfehlungen besonders vorsichtig und altersgerecht gestaltet werden.
+
+Keine aggressiven Kaloriendefizite.
+
+Keine Zielvorgaben für schnellen Gewichtsverlust.
+
+Keine Bewertung des Körpers.
+
+Schritt 9: Schlaf und Erholung
+
+Frage:
+
+“Wie möchtest du deine Schlafroutine verbessern?”
+
+Der Nutzer kann angeben:
+
+* Gewünschte Schlafenszeit
+* Gewünschte Aufstehzeit
+* Schlafgewohnheiten
+* Erholungsziele
+
+Die App soll ausreichend Schlaf priorisieren.
+
+Bei Jugendlichen sollen die Empfehlungen altersgerecht sein.
+
+Schritt 10: Winter Arc Start
+
+Zeige eine Zusammenfassung.
+
+Beispielsweise:
+
+“Dein Winter Arc ist bereit.”
+
+Zeige:
+
+* Ausgewählte Ziele
+* Sportarten
+* Trainingszeiten
+* Gewohnheiten
+* Ernährungsschwerpunkte
+* Schlafroutine
+
+Button:
+
+“Mein Dashboard erstellen”
+
+Nach Abschluss wird ein persönliches Dashboard generiert.
+
+⸻
+
+6. DASHBOARD
+
+Das Dashboard ist die wichtigste Seite der App.
+
+Es soll beim Öffnen direkt sichtbar sein.
+
+Begrüßung
+
+Beispiel:
+
+“Good evening.”
+
+“Ready for your Winter Arc?”
+
+Die Begrüßung soll abhängig von der Uhrzeit angepasst werden.
+
+Zeige das aktuelle Datum.
+
+Winter Arc Fortschritt
+
+Erstelle einen großen Fortschrittsbereich.
+
+Titel:
+
+“Your Winter Arc”
+
+Zeige:
+
+* Startdatum
+* Geplantes Enddatum
+* Aktuelle Woche
+* Abgeschlossene Gewohnheiten
+* Trainingsfortschritt
+* Persönliche Ziele
+
+Verwende einen modernen Progress Ring oder eine vergleichbare Visualisierung.
+
+Der Fortschritt darf nicht ausschließlich von Training abhängig sein.
+
+Auch gesunde Gewohnheiten, Erholung und persönliche Ziele sollen berücksichtigt werden.
+
+Today’s Focus
+
+Zeige die wichtigsten Aufgaben des Tages.
+
+Beispielsweise:
+
+* Geplantes Training
+* Vereinssport
+* Lernzeit
+* Spaziergang
+* Gewohnheiten
+* Schlafroutine
+
+Der Nutzer kann Aufgaben abhaken.
+
+Erledigte Aufgaben werden visuell markiert.
+
+Today’s Workout
+
+Zeige das für heute geplante Workout.
+
+Beispielsweise:
+
+“Upper Body”
+
+Darunter:
+
+* Trainingsdauer
+* Anzahl der Übungen
+* Trainingsschwerpunkt
+* Equipment
+
+Button:
+
+“Workout starten”
+
+Wenn kein Workout geplant ist, zeige:
+
+“Heute ist kein Workout geplant.”
+
+Button:
+
+“Workout erstellen”
+
+Habit Overview
+
+Zeige die wichtigsten Gewohnheiten.
+
+Beispielsweise:
+
+* Bewegung
+* Wasser trinken
+* Schlafroutine
+* Lernzeit
+* Stretching
+
+Jede Gewohnheit erhält:
+
+* Namen
+* Tagesziel
+* Erledigungsstatus
+* Fortschritt
+
+Weekly Progress
+
+Erstelle ein modernes Diagramm.
+
+Zeige:
+
+* Trainingsaktivitäten
+* Erledigte Gewohnheiten
+* Aktive Tage
+* Erholungszeiten
+
+Die Daten sollen tatsächlich aus den gespeicherten Aktivitäten stammen.
+
+AI Coach
+
+Zeige eine kompakte AI-Coach-Card.
+
+Beispiel:
+
+“Your personal coach is ready.”
+
+Button:
+
+“Mit AI Coach sprechen”
+
+Der Button öffnet den KI-Chat.
+
+Quick Actions
+
+Implementiere schnelle Aktionen:
+
+* Workout erstellen
+* Tagesplan öffnen
+* Gewohnheit hinzufügen
+* Ernährung planen
+* AI Coach öffnen
+
+Alle Aktionen müssen funktionieren.
+
+⸻
+
+7. WORKOUT GENERATOR
+
+Erstelle einen umfangreichen intelligenten Workout-Generator.
+
+Der Workout-Generator soll personalisierte Trainingspläne erstellen.
+
+Trainingsziele
+
+Der Nutzer kann auswählen:
+
+* Kraft
+* Allgemeine Fitness
+* Ausdauer
+* Beweglichkeit
+* Sportartspezifisches Training
+* Koordination
+* Technik
+* Ganzkörpertraining
+* Oberkörper
+* Unterkörper
+* Core
+* Regeneration
+
+Mehrere Ziele dürfen kombiniert werden.
+
+Trainingsarten
+
+Unterstütze:
+
+Strength Training
+
+Krafttraining mit Kurzhanteln, Langhantel oder anderen verfügbaren Gewichten.
+
+Bodyweight Training
+
+Training mit dem eigenen Körpergewicht.
+
+Resistance Band Training
+
+Training mit Widerstandsbändern.
+
+Cardio
+
+Laufen, Fahrrad, Laufband, Ergometer oder andere geeignete Ausdaueraktivitäten.
+
+Mobility
+
+Beweglichkeit und kontrollierte Mobilitätsübungen.
+
+Sport-Specific Training
+
+Training für bestimmte Sportarten.
+
+Beispiele:
+
+* Handball
+* Fußball
+* Basketball
+* Volleyball
+* Tennis
+* Mountainbike
+
+Recovery
+
+Leichte Bewegung, Mobilität und Erholung.
+
+Keine intensive Belastung bei Krankheit oder Verletzung.
+
+Workout-Einstellungen
+
+Der Nutzer soll auswählen können:
+
+* Trainingsziel
+* Sportart
+* Trainingsdauer
+* Trainingserfahrung
+* Equipment
+* Trainingsort
+* Trainingsintensität
+* Muskelgruppen
+* Einschränkungen
+
+KI-Workout-Erstellung
+
+Erstelle anhand der Angaben einen individuellen Trainingsplan.
+
+Jeder Trainingsplan soll enthalten:
+
+* Name
+* Trainingsziel
+* Dauer
+* Aufwärmen
+* Hauptteil
+* Cool-down
+* Übungen
+* Sätze
+* Wiederholungen
+* Pausen
+* Ausführungshinweise
+* Schwierigkeitsgrad
+* Equipment
+
+Jede Übung soll verständlich erklärt werden.
+
+Übungsdatenbank
+
+Erstelle eine umfangreiche strukturierte Übungsdatenbank.
+
+Jede Übung benötigt:
+
+* Übungsname
+* Trainingsart
+* Zielbereich
+* Equipment
+* Schwierigkeitsgrad
+* Beschreibung
+* Ausführung
+* Sicherheitsinformationen
+* Alternativen
+
+Beispiele:
+
+* Kniebeugen
+* Liegestütze
+* Ausfallschritte
+* Rudern mit Kurzhanteln
+* Schulterdrücken
+* Planks
+* Dead Bugs
+* Glute Bridges
+* Band Rows
+* Band Pull-Aparts
+* Farmer’s Walk
+* Wadenheben
+* Hampelmänner
+* Leichtes Joggen
+* Mobilitätsübungen
+
+Die Datenbank soll sinnvoll erweiterbar sein.
+
+Workout-Alternativen
+
+Wenn eine Übung nicht möglich ist, soll der Nutzer eine Alternative auswählen können.
+
+Beispielsweise:
+
+“Keine Trainingsbank vorhanden.”
+
+Die KI soll eine geeignete Alternative anbieten.
+
+Oder:
+
+“Diese Übung passt heute nicht.”
+
+Die KI soll eine andere Übung mit vergleichbarem Trainingsziel vorschlagen.
+
+Workout Timer
+
+Implementiere einen funktionierenden Trainings-Timer.
+
+Funktionen:
+
+* Trainingszeit
+* Pausentimer
+* Übungswechsel
+* Start
+* Pause
+* Fortsetzen
+* Beenden
+
+Zeige die aktuelle Übung.
+
+Zeige die nächste Übung.
+
+Der Timer muss tatsächlich funktionieren.
+
+Workout Completion
+
+Nach dem Training soll der Nutzer eine Zusammenfassung erhalten.
+
+Zeige:
+
+* Absolvierte Übungen
+* Trainingsdauer
+* Trainingsziel
+* Persönliche Notizen
+* Subjektives Belastungsempfinden
+
+Der Nutzer kann angeben:
+
+* Leicht
+* Mittel
+* Anstrengend
+
+Verwende diese Informationen, um zukünftige Trainingspläne sinnvoll anzupassen.
+
+⸻
+
+8. TRAININGSPLANER
+
+Erstelle einen vollständigen Wochenplaner.
+
+Der Nutzer soll Trainingspläne für mehrere Tage erstellen können.
+
+Kalender
+
+Implementiere:
+
+* Wochenansicht
+* Tagesansicht
+* Trainingsübersicht
+* Ruhezeiten
+* Vereinssport
+* Individuelle Aktivitäten
+
+Trainingsaufteilung
+
+Unterstütze beispielsweise:
+
+* Full Body
+* Upper Body
+* Lower Body
+* Push
+* Pull
+* Ganzkörper
+* Cardio
+* Sportartspezifisches Training
+* Mobility
+* Recovery
+
+Die App soll keine starre Trainingsaufteilung erzwingen.
+
+Der Plan muss an den Nutzer angepasst werden.
+
+Belastungssteuerung
+
+Berücksichtige:
+
+* Trainingserfahrung
+* Alter
+* Trainingshäufigkeit
+* Vereinsaktivitäten
+* Erholung
+* verfügbare Zeit
+* aktuelle Belastung
+
+Bei Jugendlichen:
+
+Priorisiere technisch sauberes Training, altersgerechte Belastung, ausreichende Erholung und die Betreuung durch qualifizierte Erwachsene bei anspruchsvollem Krafttraining.
+
+Keine maximalen Krafttests als Standard.
+
+Keine gefährlichen Trainingsmethoden.
+
+Automatische Wochenplanung
+
+Die KI soll auf Wunsch eine komplette Woche erstellen.
+
+Beispiel:
+
+Montag:
+Krafttraining
+
+Dienstag:
+Vereinssport
+
+Mittwoch:
+Leichte Bewegung oder Erholung
+
+Donnerstag:
+Vereinssport
+
+Freitag:
+Individuelles Training
+
+Samstag:
+Sport oder Freizeitaktivität
+
+Sonntag:
+Erholung
+
+Das ist nur ein Beispiel.
+
+Die App muss individuelle Termine und die tatsächliche Belastung berücksichtigen.
+
+Änderungen
+
+Der Nutzer kann:
+
+* Training verschieben
+* Training löschen
+* Training hinzufügen
+* Training ersetzen
+* Trainingsdauer ändern
+* Ruhetage festlegen
+
+Bei einer Änderung soll die App den restlichen Wochenplan sinnvoll anpassen.
+
+⸻
+
+9. NUTRITION AI
+
+Erstelle einen intelligenten Ernährungsplaner.
+
+Die App soll Nutzern dabei helfen, sich ausgewogen, abwechslungsreich und passend zu ihren Aktivitäten zu ernähren.
+
+Ernährungsschwerpunkte
+
+Unterstütze:
+
+* Ausgewogene Mahlzeiten
+* Regelmäßige Essenszeiten
+* Sportgerechte Ernährung
+* Ausreichende Flüssigkeitszufuhr
+* Mahlzeitenplanung
+* Lebensmittelvielfalt
+* Obst und Gemüse
+* Proteinreiche Lebensmittel
+* Kohlenhydratquellen
+* Gesunde Fettquellen
+
+Persönliche Ernährung
+
+Berücksichtige:
+
+* Ernährungsweise
+* Allergien
+* Unverträglichkeiten
+* Lebensmittelpräferenzen
+* Essenszeiten
+* Sportaktivitäten
+* verfügbare Zutaten
+
+Meal Planner
+
+Erstelle einen Wochenplan mit:
+
+* Frühstück
+* Mittagessen
+* Abendessen
+* Snacks
+
+Jede Mahlzeit soll enthalten:
+
+* Name
+* Zutaten
+* Zubereitung
+* Portionierung
+* Ernährungsinformationen
+* Alternative
+
+Die Mahlzeiten sollen abwechslungsreich sein.
+
+Keine unnötig komplizierten Rezepte.
+
+Lebensmittelalternativen
+
+Wenn ein Nutzer eine Zutat nicht mag, soll die KI eine passende Alternative vorschlagen.
+
+Beispiel:
+
+“Ich mag keinen Fisch.”
+
+Die KI kann andere geeignete Lebensmittel vorschlagen.
+
+Einkaufsliste
+
+Erstelle automatisch eine Einkaufsliste.
+
+Die Liste soll aus den ausgewählten Mahlzeiten generiert werden.
+
+Funktionen:
+
+* Zutaten zusammenfassen
+* Mengen sinnvoll bündeln
+* Kategorien erstellen
+* Lebensmittel abhaken
+* Zutaten entfernen
+* Zutaten ergänzen
+
+Kategorien:
+
+* Obst
+* Gemüse
+* Milchprodukte
+* Getreide
+* Proteinquellen
+* Sonstiges
+
+Ernährungs-Sicherheit
+
+Die App darf keine extreme Ernährung fördern.
+
+Keine:
+
+* Crash-Diäten
+* Restriktiven Kalorienziele
+* Hunger-Challenges
+* Entwässerungspläne
+* Nahrungsergänzungsmittel als notwendige Voraussetzung
+* Gewichtsverlust-Challenges
+
+Bei Minderjährigen:
+
+Keine automatischen Kaloriendefizite.
+
+Keine aggressiven Makroziele.
+
+Keine Empfehlungen zum schnellen Abnehmen.
+
+Keine Bewertung des Körpers.
+
+Die App soll stattdessen ausgewogene Mahlzeiten, ausreichende Energiezufuhr, regelmäßiges Essen und gesundes Wachstum unterstützen.
+
+Bei Fragen zu Gewichtsveränderungen oder medizinischen Ernährungsproblemen soll sie an Eltern beziehungsweise Sorgeberechtigte und qualifiziertes medizinisches Fachpersonal verweisen.
+
+⸻
+
+10. HABIT TRACKER
+
+Erstelle einen vollständigen Gewohnheitstracker.
+
+Gewohnheiten
+
+Der Nutzer kann eigene Gewohnheiten erstellen.
+
+Beispiele:
+
+* Lesen
+* Lernen
+* Bewegung
+* Spaziergang
+* Stretching
+* Schlafroutine
+* Wasser trinken
+* Zimmer aufräumen
+* Instrument üben
+* Persönliche Projekte
+
+Habit Creation
+
+Beim Erstellen einer Gewohnheit kann der Nutzer einstellen:
+
+* Name
+* Beschreibung
+* Kategorie
+* Ziel
+* Häufigkeit
+* Erinnerungszeit
+* Startdatum
+
+Tracking
+
+Implementiere:
+
+* Tagesstatus
+* Wochenstatus
+* Monatsübersicht
+* Erledigte Aufgaben
+* Aktuelle Streak
+* Beste Streak
+
+Streak System
+
+Zeige:
+
+* Aktuelle Streak
+* Beste Streak
+* Erledigte Tage
+* Wochenfortschritt
+
+Eine unterbrochene Streak darf nicht dazu führen, dass die App den Nutzer negativ bewertet.
+
+Zeige motivierende Nachrichten.
+
+Beispiel:
+
+“Ein neuer Tag ist eine neue Chance.”
+
+Die App soll gesunde Kontinuität fördern, nicht Perfektion.
+
+Habit Calendar
+
+Erstelle eine Kalenderübersicht.
+
+Markiere:
+
+* Erledigte Gewohnheiten
+* Teilweise erledigte Tage
+* Geplante Ruhetage
+
+Der Nutzer soll vergangene Tage einsehen können.
+
+⸻
+
+11. DAILY SCHEDULE
+
+Erstelle einen intelligenten Tagesplaner.
+
+Der Nutzer soll seinen Tag strukturieren können.
+
+Tagesplan
+
+Unterstütze:
+
+* Aufstehen
+* Schule oder Arbeit
+* Lernen
+* Training
+* Mahlzeiten
+* Freizeit
+* Sportverein
+* Erholung
+* Schlafenszeit
+
+AI Schedule Generator
+
+Die KI soll anhand der Termine einen realistischen Tagesplan erstellen.
+
+Beispiel:
+
+07:00 – Aufstehen
+
+08:00 – Schule
+
+15:00 – Freizeit
+
+16:00 – Training
+
+17:00 – Erholung
+
+18:00 – Abendessen
+
+20:00 – Persönliche Projekte
+
+21:00 – Abendroutine
+
+Die Zeiten sind nur Beispiele.
+
+Die KI muss sich nach den tatsächlichen Angaben des Nutzers richten.
+
+Schedule Editor
+
+Der Nutzer kann:
+
+* Aktivitäten hinzufügen
+* Aktivitäten bearbeiten
+* Aktivitäten verschieben
+* Aktivitäten löschen
+* Dauer ändern
+* Wiederholungen festlegen
+
+Konflikterkennung
+
+Wenn zwei Aktivitäten gleichzeitig stattfinden, soll die App einen Konflikt anzeigen.
+
+Beispiel:
+
+“Training überschneidet sich mit deinem Vereinssport.”
+
+Die App soll eine alternative Zeit vorschlagen.
+
+Prioritäten
+
+Priorisiere:
+
+1. Schule oder Arbeit
+2. Feste Verpflichtungen
+3. Schlaf
+4. Erholung
+5. Sport
+6. Persönliche Aktivitäten
+
+Der Nutzer soll seine Prioritäten anpassen können.
+
+⸻
+
+12. AI COACH
+
+Erstelle einen integrierten persönlichen KI-Coach.
+
+Die KI soll sich wie ein freundlicher, professioneller und motivierender Coach verhalten.
+
+Sie darf nicht beleidigend oder übermäßig aggressiv sein.
+
+Coach-Funktionen
+
+Der Nutzer kann Fragen stellen zu:
+
+* Workouts
+* Trainingsplanung
+* Sportarten
+* Ernährung
+* Gewohnheiten
+* Tagesplanung
+* Motivation
+* Regeneration
+* persönlichen Zielen
+
+Coach-Personalisierung
+
+Die KI soll die Informationen aus dem Onboarding verwenden.
+
+Sie soll wissen:
+
+* Welche Ziele der Nutzer hat
+* Welche Sportarten er ausübt
+* Welche Ausrüstung vorhanden ist
+* Wie viel Zeit er hat
+* Welche Aktivitäten geplant sind
+* Welche Gewohnheiten er verfolgt
+
+Die KI soll nur tatsächlich vorhandene Nutzerdaten verwenden.
+
+Keine erfundenen Fortschritte.
+
+Chat Interface
+
+Erstelle ein modernes Chat-Interface.
+
+Funktionen:
+
+* Nachrichten senden
+* Nachrichten anzeigen
+* Gesprächsverlauf
+* Eingabefeld
+* Senden-Button
+* Ladeindikator
+* Fehlerbehandlung
+
+Quick Prompts
+
+Zeige Vorschläge:
+
+* “Erstelle mein Workout für heute.”
+* “Plane meine nächste Woche.”
+* “Was kann ich heute verbessern?”
+* “Erstelle einen ausgewogenen Ernährungsplan.”
+* “Passe meinen Tagesplan an.”
+* “Welche Erholung brauche ich?”
+
+Coach-Verhalten
+
+Der Coach soll:
+
+* Freundlich
+* Motivierend
+* Sachlich
+* Individuell
+* Realistisch
+* Altersgerecht
+
+sein.
+
+Er soll keine unrealistischen Versprechen machen.
+
+Er soll keine extreme Disziplin verlangen.
+
+Er soll keine medizinischen Diagnosen erstellen.
+
+Er soll bei Verletzungen, Schmerzen, Krankheit oder anderen gesundheitlichen Problemen auf die Grenzen der KI hinweisen und bei Bedarf qualifizierte Erwachsene oder medizinisches Fachpersonal empfehlen.
+
+⸻
+
+13. PROGRESS DASHBOARD
+
+Erstelle eine umfangreiche Fortschrittsseite.
+
+Statistiken
+
+Zeige:
+
+* Absolvierte Workouts
+* Aktive Tage
+* Erledigte Gewohnheiten
+* Trainingszeit
+* Persönliche Ziele
+* Wochenfortschritt
+
+Charts
+
+Verwende Recharts oder eine vergleichbare Bibliothek.
+
+Implementiere:
+
+Weekly Activity
+
+Zeige die Aktivitäten der letzten sieben Tage.
+
+Habit Completion
+
+Zeige, wie viele Gewohnheiten erledigt wurden.
+
+Workout History
+
+Zeige die absolvierten Trainings.
+
+Goal Progress
+
+Zeige den Fortschritt persönlicher Ziele.
+
+Alle Diagramme müssen echte gespeicherte Daten verwenden.
+
+Wenn noch keine Daten vorhanden sind, zeige einen sinnvollen Empty State.
+
+Erfinde keine Statistiken.
+
+Persönliche Erfolge
+
+Erstelle ein Achievement-System.
+
+Beispiele:
+
+* Erstes Workout abgeschlossen
+* Erste Woche geplant
+* Sieben Tage Gewohnheiten verfolgt
+* Persönliches Ziel erreicht
+* Regelmäßige Erholung eingeplant
+
+Achievements sollen gesunde Gewohnheiten belohnen.
+
+Keine Belohnungen für extremes Training oder Schlafmangel.
+
+⸻
+
+14. CHALLENGE SYSTEM
+
+Erstelle ein persönliches Winter-Arc-Challenge-System.
+
+Der Nutzer soll verschiedene Challenges auswählen können.
+
+Challenge-Kategorien
+
+Fitness
+
+Beispiele:
+
+* Regelmäßige Bewegung
+* Workout-Routine
+* Mobility-Routine
+
+Lifestyle
+
+Beispiele:
+
+* Tagesplanung
+* Zimmer organisieren
+* Persönliche Projekte
+
+Learning
+
+Beispiele:
+
+* Regelmäßige Lernzeit
+* Lesen
+* Neue Fähigkeiten
+
+Recovery
+
+Beispiele:
+
+* Schlafroutine
+* Erholung
+* Entspannungszeit
+
+Challenge Dauer
+
+Unterstütze:
+
+* 7 Tage
+* 14 Tage
+* 30 Tage
+* Individuelle Dauer
+
+Challenge Tracking
+
+Zeige:
+
+* Challenge-Ziel
+* Startdatum
+* Fortschritt
+* Erledigte Aufgaben
+* Aktuelle Woche
+
+Challenge Generator
+
+Die KI soll personalisierte Challenges erstellen.
+
+Dabei müssen die Challenges realistisch und altersgerecht sein.
+
+Keine extremen Fitness-Challenges.
+
+Keine täglichen maximalen Trainingseinheiten.
+
+Keine Challenges mit Schlafentzug.
+
+Keine Challenges, die Mahlzeiten auslassen oder Hunger fördern.
+
+Keine Challenges, bei denen der Nutzer Schmerzen ignorieren soll.
+
+⸻
+
+15. RECOVERY UND WELLNESS
+
+Erstelle einen eigenen Bereich für Erholung.
+
+Funktionen
+
+* Erholungsplanung
+* Mobility
+* Leichte Bewegung
+* Entspannungsübungen
+* Schlafroutine
+* Pausentage
+
+Recovery Planner
+
+Die KI soll bei der Planung berücksichtigen:
+
+* Trainingsbelastung
+* Sportverein
+* Schlaf
+* Tagesaktivitäten
+* subjektives Wohlbefinden
+
+Wellness Check-in
+
+Der Nutzer kann freiwillig angeben:
+
+* Wie fühlt sich der Tag an?
+* Wie viel Energie habe ich?
+* Wie war mein Schlaf?
+* Wie anstrengend war das Training?
+
+Verwende diese Angaben nur zur Anpassung des Trainings und der Erholung.
+
+Keine medizinische Diagnose.
+
+Keine Bewertung des Nutzers.
+
+Rest Days
+
+Ruhetage sollen ausdrücklich als wichtiger Bestandteil des Trainings dargestellt werden.
+
+Ein Ruhetag ist kein verlorener Tag.
+
+Die App soll Erholung genauso positiv darstellen wie Training.
+
+⸻
+
+16. SETTINGS
+
+Erstelle eine vollständige Einstellungsseite.
+
+Profile
+
+* Name
+* Sprache
+* Alter beziehungsweise Altersgruppe
+* Sportarten
+* Ziele
+
+Training
+
+* Trainingsdauer
+* Trainingshäufigkeit
+* Equipment
+* Trainingsort
+* Trainingspräferenzen
+
+Nutrition
+
+* Ernährungsweise
+* Allergien
+* Unverträglichkeiten
+* Lebensmittelpräferenzen
+
+Notifications
+
+* Erinnerungen
+* Workout Reminder
+* Habit Reminder
+* Tagesplanung
+
+Benachrichtigungen müssen optional sein.
+
+Appearance
+
+* Dark Mode
+* Light Mode
+* System Theme
+
+Data
+
+* Daten exportieren
+* Daten zurücksetzen
+* Profil löschen
+
+Implementiere diese Funktionen soweit technisch möglich.
+
+⸻
+
+17. NAVIGATION
+
+Erstelle eine moderne Navigation.
+
+Desktop:
+
+Eine Sidebar mit folgenden Bereichen:
+
+1. Dashboard
+2. Workouts
+3. Training Plan
+4. Nutrition
+5. Habits
+6. Schedule
+7. AI Coach
+8. Progress
+9. Challenges
+10. Settings
+
+Die Sidebar soll einklappbar sein.
+
+Mobile:
+
+Erstelle eine moderne Bottom Navigation.
+
+Die wichtigsten Bereiche:
+
+* Home
+* Workouts
+* Plan
+* AI Coach
+* Profile
+
+Weitere Funktionen sollen über ein Menü erreichbar sein.
+
+Die Navigation muss vollständig funktionieren.
+
+⸻
+
+18. RESPONSIVE DESIGN
+
+Die App muss auf folgenden Geräten funktionieren:
+
+* Desktop
+* Laptop
+* Tablet
+* Smartphone
+
+Desktop
+
+Verwende:
+
+* Sidebar
+* Dashboard Grid
+* Mehrere Cards
+* Diagramme
+
+Tablet
+
+Passe die Cards und Navigation an.
+
+Smartphone
+
+Verwende:
+
+* Mobile Navigation
+* Einspaltiges Layout
+* Große Touch-Flächen
+* Gut lesbare Texte
+* Kompakte Cards
+
+Keine horizontalen Scrollprobleme.
+
+Keine abgeschnittenen Buttons.
+
+Keine unlesbaren Tabellen.
+
+⸻
+
+19. ANIMATIONEN
+
+Implementiere dezente Animationen.
+
+Beispiele:
+
+* Seitenwechsel
+* Card Hover
+* Progress Animation
+* Modal Öffnung
+* Workout Start
+* Achievement
+
+Verwende CSS-Animationen oder Framer Motion, sofern verfügbar.
+
+Animationen sollen schnell und flüssig sein.
+
+Berücksichtige Nutzer, die reduzierte Animationen bevorzugen.
+
+⸻
+
+20. DATENMODELL
+
+Erstelle eine nachvollziehbare Datenstruktur.
+
+Beispielsweise:
+
+UserProfile:
+
+* id
+* name
+* ageGroup
+* goals
+* sports
+* equipment
+* preferences
+
+Workout:
+
+* id
+* name
+* category
+* duration
+* exercises
+* date
+* completed
+
+Exercise:
+
+* id
+* name
+* category
+* description
+* equipment
+* sets
+* repetitions
+* rest
+* alternatives
+
+Habit:
+
+* id
+* name
+* category
+* frequency
+* completedDates
+
+Meal:
+
+* id
+* name
+* ingredients
+* instructions
+* category
+* preferences
+
+ScheduleEvent:
+
+* id
+* title
+* start
+* end
+* category
+
+Challenge:
+
+* id
+* name
+* duration
+* tasks
+* progress
+
+ProgressEntry:
+
+* id
+* date
+* activity
+* completionStatus
+
+Verwende TypeScript Interfaces oder vergleichbare Typen.
+
+Die Daten sollen konsistent gespeichert werden.
+
+⸻
+
+21. KI-INTEGRATION
+
+Nutze die KI-Funktionen von Google AI Studio beziehungsweise das verfügbare Gemini-Modell.
+
+Die KI soll für folgende Funktionen eingesetzt werden:
+
+* Workout-Generierung
+* Wochenplanung
+* Ernährungsplanung
+* Gewohnheiten
+* Challenge-Erstellung
+* AI Coach
+
+KI-Ausgabe
+
+Die KI soll strukturierte Daten erzeugen.
+
+Bevorzugt:
+
+JSON mit validiertem Schema.
+
+Beispiel:
+
+{
+“name”: “Full Body Workout”,
+“duration”: 30,
+“goal”: “General Fitness”,
+“warmup”: [],
+“exercises”: [],
+“cooldown”: []
+}
+
+Die Anwendung muss KI-Antworten validieren.
+
+Wenn eine Antwort ungültig ist:
+
+* Fehler erkennen
+* Antwort nicht ungeprüft verwenden
+* Verständliche Fehlermeldung anzeigen
+* Erneute Generierung ermöglichen
+
+KI-Sicherheit
+
+Die KI darf keine unsicheren Trainingspläne erstellen.
+
+Bei Minderjährigen:
+
+* Altersgerechte Trainingsgestaltung
+* Keine extremen Belastungen
+* Keine maximalen Krafttests
+* Keine extremen Ernährungsziele
+* Keine aggressiven Diäten
+* Keine Übertrainings-Challenges
+
+Bei Schmerzen, Verletzungen oder Krankheit:
+
+Keine intensive Belastung empfehlen.
+
+Die KI soll bei medizinischen Fragen auf qualifizierte Hilfe verweisen.
+
+⸻
+
+22. UI DETAILS
+
+Implementiere folgende UI-Komponenten:
+
+Cards
+
+* Dashboard Card
+* Workout Card
+* Nutrition Card
+* Habit Card
+* Progress Card
+* Challenge Card
+
+Modals
+
+* Create Workout
+* Create Habit
+* Add Schedule Event
+* Edit Profile
+* Workout Details
+
+Forms
+
+Alle Formulare müssen:
+
+* Eingaben validieren
+* Fehler anzeigen
+* Pflichtfelder prüfen
+* Erfolgreiche Speicherung bestätigen
+
+Empty States
+
+Wenn keine Daten vorhanden sind:
+
+Zeige eine moderne Empty-State-Ansicht.
+
+Beispiel:
+
+“Dein Winter Arc beginnt hier.”
+
+Button:
+
+“Ersten Plan erstellen”
+
+Loading States
+
+Bei KI-Generierung:
+
+Zeige einen Ladeindikator.
+
+Beispiel:
+
+“Dein persönlicher Plan wird erstellt…”
+
+Keine eingefrorenen Benutzeroberflächen.
+
+⸻
+
+23. DEMO-MODUS
+
+Die App soll auch ohne externe API sofort testbar sein.
+
+Erstelle einen Demo-Modus.
+
+Der Demo-Modus soll:
+
+* Beispielprofil besitzen
+* Beispielgewohnheiten enthalten
+* Beispielworkouts enthalten
+* Beispielaktivitäten enthalten
+
+Kennzeichne Beispielinformationen eindeutig.
+
+Der Nutzer soll Beispielinformationen löschen können.
+
+Erfinde keine persönlichen Daten.
+
+Demo-Daten dürfen nicht als echte Fortschritte dargestellt werden.
+
+⸻
+
+24. QUALITÄTSSICHERUNG
+
+Überprüfe die Anwendung vor der Fertigstellung.
+
+Teste:
+
+* Navigation
+* Buttons
+* Formulare
+* Workout-Erstellung
+* Habit Tracking
+* Tagesplanung
+* Ernährungsplanung
+* KI-Chat
+* Datenspeicherung
+* Responsive Layout
+
+Behebe:
+
+* TypeScript-Fehler
+* Importfehler
+* fehlende Komponenten
+* kaputte Navigation
+* fehlerhafte Zustände
+* unresponsive Buttons
+* Layoutprobleme
+* falsche Berechnungen
+
+Vermeide:
+
+* Lorem Ipsum
+* Platzhalterseiten
+* leere Buttons
+* Fake-KI-Antworten
+* nicht funktionierende Formulare
+* nicht funktionierende Timer
+* erfundene Statistiken
+
+Wenn eine externe Integration noch nicht verfügbar ist, zeige einen klaren Hinweis.
+
+⸻
+
+25. FINALER AUFTRAG
+
+Erstelle jetzt die vollständige Winter Arc AI Anwendung.
+
+Arbeite in dieser Reihenfolge:
+
+1. Entwickle das Designsystem.
+2. Erstelle die App-Struktur.
+3. Implementiere die Navigation.
+4. Entwickle das Dashboard.
+5. Implementiere das Onboarding.
+6. Entwickle den Workout-Generator.
+7. Implementiere den Trainingsplaner.
+8. Entwickle Nutrition AI.
+9. Implementiere Habit Tracking.
+10. Entwickle den Tagesplaner.
+11. Implementiere den AI Coach.
+12. Entwickle Progress Tracking.
+13. Implementiere Challenges.
+14. Entwickle Recovery.
+15. Implementiere Settings.
+16. Implementiere Datenhaltung.
+17. Implementiere KI-Integration.
+18. Teste die gesamte Anwendung.
+19. Behebe Fehler.
+20. Stelle die vollständige Anwendung bereit.
+
+WICHTIG:
+
+Erstelle keine reine Landingpage.
+
+Erstelle eine echte, benutzbare Anwendung.
+
+Die App muss ein konsistentes Design besitzen.
+
+Die Funktionen müssen sinnvoll miteinander verbunden sein.
+
+Alle wichtigen Aktionen müssen funktionieren.
+
+Verwende moderne Technologien.
+
+Schreibe sauberen und strukturierten Code.
+
+Priorisiere Funktionalität, Sicherheit, Benutzerfreundlichkeit und Qualität.
+
+Das Endergebnis soll sich wie eine hochwertige, moderne Fitness- und Lifestyle-App anfühlen.
+
+Baue Winter Arc AI jetzt als vollständige Anwendung.
